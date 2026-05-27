@@ -10,7 +10,7 @@ Built as a 4-person capstone project in partnership with veterinary clinics, the
 
 ## Demo
 
-https://github.com/jszerlag/CanineLamnessDetectionShowcase/raw/main/assets/PawChecksDemoVideo.mp4
+https://github.com/user-attachments/assets/4c2a72e5-7a5a-47c4-9e9b-5498378a089d
 
 ---
 
