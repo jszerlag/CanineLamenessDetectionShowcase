@@ -12,7 +12,7 @@ Built as a 4-person capstone project in partnership with veterinary clinics, the
 
 ## Demo Video
 
-Special Thanks to Paul for creating this demo video showcasing the application!
+Special thanks to Paul for creating this demo video showcasing the application!
 
 https://github.com/user-attachments/assets/4c2a72e5-7a5a-47c4-9e9b-5498378a089d
 
@@ -29,14 +29,34 @@ The result is surfaced to the clinician through a clean web interface with no sp
 
 ---
 
+## Features
+
+**For Clinicians:**
+- Upload a dog gait video and receive an automated lameness grade (0–4) in under 20 seconds
+- Manage patient records - create, view, update, and delete individual animal profiles
+- Search and browse patients with paginated and sortable results
+- View annotated output videos with pose keypoints overlaid
+- Guest mode - submit a video and receive results without creating an account, with results automatically expiring after 24 hours for privacy
+- Secure account system with email verification, password reset via magic link, and an automatic inactivity lockout screen for clinic privacy
+
+**Under the Hood:**
+- Asynchronous processing pipeline using a task queue - the video analysis runs in the background so the UI stays responsive
+- Encrypted video storage and transfer throughout the pipeline
+- Separate processing stages for pose estimation and gait classification, allowing each to scale independently
+- Passwords hashed using Argon2, a memory-hard hashing algorithm designed to resist brute-force attacks
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
 | Backend | Python, Flask |
+| Frontend | React |
 | Pose Estimation | DeepLabCut (DLC) |
 | Gait Classification | PySKL STGCN++ |
-| Frontend | HTML/CSS/JS |
+| Task Queue | Celery |
+| Cloud Storage | S3-compatible object storage |
 | Containerization | Docker |
 
 ---
@@ -44,10 +64,13 @@ The result is surfaced to the clinician through a clean web interface with no sp
 ## System Architecture
 
 ```
-Video Upload (Frontend)
+Video Upload (React Frontend)
         │
         ▼
   Flask REST API
+        │
+        ▼
+  Task Queue (Celery)
         │
         ▼
  DeepLabCut Module
@@ -106,9 +129,9 @@ The project followed a full software development lifecycle. Documentation produc
 
 Developed as a capstone project by a 4-person team.
 
-- [paulwmcs](https://github.com/paulwmcs) - Team, Research, and AI Lead
-- [Trevor-D-H](https://github.com/Trevor-D-H) - Documentation and Front-End Lead
-- [VerditeB](https://github.com/VerditeB) - Presentation, QA, and Front-end Lead
+- [paulwmcs](https://github.com/paulwmcs)
+- [Trevor-D-H](https://github.com/Trevor-D-H)
+- [VerditeB](https://github.com/VerditeB)
 
 Special thanks to the veterinary clinic partners who provided training data and clinical expertise, and to Paul for producing the demo video.
 
@@ -122,5 +145,5 @@ Special thanks to the veterinary clinic partners who provided training data and 
 ---
 
 ## A Note on Source Code & Data
- 
+
 This repo is just a showcase - the full source code isn't publicly available. The system is still actively being developed, and the training data contains sensitive medical information from veterinary clinics that we aren't able to share. If you have questions about the project feel free to reach out!
