@@ -8,7 +8,9 @@ Built as a 4-person capstone project in partnership with veterinary clinics, the
 
 ---
 
-## Demo
+## Demo Video
+
+Special Thanks to Paul for creating this demo video showcasing the application!
 
 https://github.com/user-attachments/assets/4c2a72e5-7a5a-47c4-9e9b-5498378a089d
 
@@ -69,7 +71,7 @@ Video Upload (Frontend)
 - **Dataset:** ~150 annotated gait videos sourced from **5 veterinary clinics**
 - **Classification target:** Lameness grade on the standard 0–4 veterinary scale
 - **Accuracy:** >85% classification accuracy within ±1 lameness grade
-- **Inference time:** <20 seconds end-to-end from upload to result (When using 
+- **Inference time:** <20 seconds end-to-end from upload to result (measured on server-grade hardware; the demo video runs on a standard local machine and may take up to 3 minutes)
 - **Pose model:** DeepLabCut trained on canine anatomical landmarks
 - **Gait model:** PySKL STGCN++ operating on spatial-temporal keypoint graphs
 
@@ -117,6 +119,6 @@ Special thanks to the veterinary clinic partners who provided training data and 
 
 ---
 
-## License
-
-This repository is for portfolio and demonstration purposes only. The underlying system, trained models, and dataset are proprietary and not available for distribution.
+## A Note on Source Code & Data
+ 
+This repo is just a showcase - the full source code isn't publicly available. The system is still actively being developed, and the training data contains sensitive medical information from veterinary clinics that we aren't able to share. If you have questions about the project feel free to reach out!
