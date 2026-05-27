@@ -1,4 +1,8 @@
-# Canine Lameness Detection System
+<p align="center">
+  <img width="250" alt="PawChecks Logo" src="https://github.com/user-attachments/assets/f65afcf1-457d-497a-8291-1eb42d203df1" />
+</p>
+
+# Canine Lameness Detection System - PawChecks
 
 > **Note:** This is a portfolio display repository. The full source code is not publicly available as the system is under continued development. All training data was collected under veterinary clinic agreements and is not included here.
 
@@ -104,9 +108,9 @@ The project followed a full software development lifecycle. Documentation produc
 
 Developed as a capstone project by a 4-person team.
 
-- [paulwmcs](https://github.com/paulwmcs)
-- [Trevor-D-H](https://github.com/Trevor-D-H)
-- [VerditeB](https://github.com/VerditeB)
+- [paulwmcs](https://github.com/paulwmcs) - Team, Research, and AI Lead
+- [Trevor-D-H](https://github.com/Trevor-D-H) - Documentation and Front-End Lead
+- [VerditeB](https://github.com/VerditeB) - Presentation, QA, and Front-end Lead
 
 Special thanks to the veterinary clinic partners who provided training data and clinical expertise, and to Paul for producing the demo video.
 
