@@ -1,8 +1,6 @@
 <p align="center">
-  <img width="600" alt="Header" src="https://github.com/user-attachments/assets/b9d95f3f-aee3-4d0a-8c11-837ad75dd5a7" />
+  <img width="800" alt="Header" src="https://github.com/user-attachments/assets/b9d95f3f-aee3-4d0a-8c11-837ad75dd5a7" />
 </p>
-
-# PawChecks - Canine Lameness Detection System
 
 > **Note:** This is a portfolio display repository. The full source code is not publicly available as the system is under continued development. All training data was collected under veterinary clinic agreements and is not included here.
 
