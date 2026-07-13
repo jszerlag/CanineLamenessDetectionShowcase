@@ -12,11 +12,9 @@ Built as a 4-person capstone project in partnership with veterinary clinics, the
 
 ## Demo Video
 
-Special thanks to Paulwmcs for creating this demo video showcasing the application!
+Feel free to watch our PawChecks demo video, and read our User Manual to get a feel for the application.
 
-https://github.com/user-attachments/assets/36800783-b13b-46af-adb3-f4d96ac0bba0
-
----
+Special thanks to Paulwmcs for creating the demo video.
 
 ## Overview
 
