@@ -14,11 +14,7 @@ Built as a 4-person capstone project in partnership with veterinary clinics, the
 
 Special thanks to Paulwmcs for creating this demo video showcasing the application!
 
-
-
-https://github.com/user-attachments/assets/fa650cf9-f184-460b-befa-d0a4e02c516b
-
-
+https://github.com/user-attachments/assets/36800783-b13b-46af-adb3-f4d96ac0bba0
 
 ---
 
